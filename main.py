@@ -1,4 +1,5 @@
 import textwrap
+
 contas = []
 usuarios = []
 
@@ -11,6 +12,8 @@ LIMITE_SAQUES = 3
 def menu():
     menu = """\n
     ------------- MENU --------------
+    Bem vindos ,ao nosso sistema:
+    ---------------------------------
     [1]\tDepositar
     [2]\tSacar
     [3]\tExtrato
