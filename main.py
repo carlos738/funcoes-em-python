@@ -96,7 +96,7 @@ def criar_conta(agencia, numero_conta, usuarios):
         print("\n--- Sua conta criada com sucesso! ---")
         return {"agencia": agencia, "numero_conta": numero_conta, "usuario": usuario}
 
-    print("\n@@@ Usuário não encontrado,  criação da conta encerrado! @@@")
+    print("\n@@@ Usuário não encontrado,  criação da conta encerrada! @@@")
 
 
 def listar_contas(contas):
